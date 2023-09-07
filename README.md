@@ -24,8 +24,8 @@ nano tgi.sh
 ```
 and copy paste in the following (the token is required if using 13b or 70b [coming soon] gated models from huggingface.co/trelis):
 ```
-model=meta-llama/Llama-2-7b-chat-hf-function-calling-v2
-token=<your huggingface token for the meta-llama repo>
+model=Trelis/Llama-2-7b-chat-hf-function-calling-v2
+token=<your huggingface token for the trelis repo>
 volume=$PWD/data # share a volume with the Docker container to avoid downloading weights every run
 
 docker run -d --gpus all --shm-size 1g -e HUGGING_FACE_HUB_TOKEN=$token -p 8080:80 -v $volume:/data ghcr.io/huggingface/text-generation-inference:1.0.2 --model-id $model --quantize bitsandbytes-nf4 --max-input-length 4000 --max-total-tokens 4096
