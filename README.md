@@ -7,7 +7,7 @@ Add function calling to chat-ui with text-generation-inference
 
 Other resources:
 1. Full guided instructions for installation of tgi and chat-ui on an AWS server are available [here].(https://buy.stripe.com/9AQ28UcWh4PF1ckeV9)
-2. 13b and 34b size function calling models are available for purchase [here on HuggingFace](https://huggingface.co/Trelis/Llama-2-13b-chat-hf-function-calling-v2).
+2. 13b, 34b and 70b size function calling models are available for purchase [here on HuggingFace](https://huggingface.co/Trelis/Llama-2-13b-chat-hf-function-calling-v2).
 
 ## text-generation-inference Setup (on a Ubuntu server)
 Create a script to run 'tgi' with:
