@@ -6,7 +6,7 @@ Add function calling to chat-ui with text-generation-inference
 1. This code will integrate function calling so that the language model returns a structured request/function call. However, this code does not include handling of that structured request (i.e. sending it to an api and returning a response to the llm).
 
 Other resources:
-1. Full guided instructions for installation of tgi and chat-ui on an AWS server are available [here].(https://buy.stripe.com/9AQ28UcWh4PF1ckeV9)
+1. Full guided instructions for installation of tgi and chat-ui on an AWS server are available [here](https://buy.stripe.com/9AQ28UcWh4PF1ckeV9).
 2. 13b, 34b and 70b size function calling models are available for purchase [here on HuggingFace](https://huggingface.co/Trelis/Llama-2-13b-chat-hf-function-calling-v2).
 
 ## text-generation-inference Setup (on a Ubuntu server)
